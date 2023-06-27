@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+body {
+  color: white;
+  background-color: #001C30;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  background-color: #001C30;
+  font-size: 1.35rem;
+}
+
+.menu {
+  display: flex;
+  gap: 16px;
+}
+
+main {
+  margin: 6% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+
+main>div>img {
+  width: 400px;
+  height: 400px;
+}
+
+.image {
+  width: 25%;
+}
+
+.hero {
+  width: 40%;
+  font-size: 5.25rem;
+}
+
+hire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 14% auto;
+}
+
+.hero_2 {
+  font-size: 5rem;
+  width: 40%;
+}
+
+.hired_img {
+  width: 30%;
+}
+
+hire>div>img {
+  height: 350px;
+  width: 350px;
+}
+
+work {
+  margin: 10% 0 0 4%;
+  display: flex;
+  gap: 24px;
+  justify-content: left;
+  align-items: center;
+}
+
+work>div>img {
+  height: 250px;
+  width: 250px;
+}
+
+.why_code {
+  font-size: 4rem;
+}
+
+context>div {
+  display: block;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin: 6% 20%;
+}
+
+span {
+  font-size: 1.5rem;
+}
+
+footer>div {
+  margin: 6% 0 2% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero {
+    width: 50%;
+    font-size: 2rem;
+  }
+
+  main>div>img {
+    height: 150px;
+    width: 150px;
+  }
+
+  main {
+    margin: 20% 0 20% 0;
+  }
+
+  hire {
+    margin: 0 0 0 12%;
+  }
+
+  .hero_2 {
+    width: 35%;
+    font-size: 2.2rem;
+    margin: 0 0 0 20%;
+  }
+
+
+  hire>div>img {
+    height: 150px;
+    width: 150px;
+  }
+
+  work>div>img {
+    height: 150px;
+    width: 150px;
+    margin: 12% 0 0 0;
+  }
+
+  .why_code {
+    margin-left: 4%;
+    font-size: 2.6rem;
+  }
+
+  context>div {
+    font-style: justify;
+    margin: 6%;
+  }
+}
